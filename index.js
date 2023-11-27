@@ -2,7 +2,9 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("<h1>Em construção</h1>");
+  res.send(
+    "<h1>Travel tracker</h1><h2>Página em construção retorne mais tarde</h2>"
+  );
 });
 
 app.listen(3000, () => {
